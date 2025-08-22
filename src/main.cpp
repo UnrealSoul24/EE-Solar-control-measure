@@ -138,6 +138,7 @@ void loop() {
         measureIntegrated(V, I_mA, P_mW);
         printVIP(V, I_mA, P_mW, a);
       }
+      Serial.println("DONE");
       return;
     }
 
